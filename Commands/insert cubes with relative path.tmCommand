@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>eval arr=("$TM_SELECTED_FILES")
+cubes=(left front right back up down)
+tag=""
+for (( i = 0; i &lt; ${#arr[@]}; i++ )); do
+    #echo ${arr[$i]}
+    str=${arr[$i]}
+    #cube=$str
+    #cube=${str:(-10)}
+    cube=${str##*/}
+    folder=${str%/*$cube}
+    folder=${folder##*/}
+    if [[ $cube == *_l* ]]
+    then
+      tag="left"
+    elif [[ $cube == *_f* ]]
+    then
+	  tag="front"
+    elif [[ $cube == *_r* ]]
+    then
+	  tag="right"
+    elif [[ $cube == *_b* ]]
+    then
+	  tag="back"
+    elif [[ $cube == *_u* ]]
+    then
+	  tag="up"
+    elif [[ $cube == *_d* ]]
+    then
+	  tag="down"
+    elif [[ $cube == *preview* ]]
+    then
+       tag="preview"
+    fi
+    if [[ $tag == "preview" ]]
+    then
+       echo -e "&lt;$tag type=\"CUBESTRIP\" url=\"$folder/$cube\" /&gt;"
+    else
+       if [[ $i == 0 ]]
+	   then
+		echo "&lt;image type=\"CUBE\"&gt;"
+       fi
+       echo -e "&lt;$tag\turl=\"$folder/$cube\" /&gt;"
+    fi
+    if [[ $tag != "preview" ]] &amp;&amp; [[ $i -ge 5 ]]
+    then
+    	  echo "&lt;/image&gt;"
+    fi
+    #echo "folder: " $folder "cube:" $cube
+done</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^@s</string>
+	<key>name</key>
+	<string>insert cubes with relative path</string>
+	<key>output</key>
+	<string>insertAsSnippet</string>
+	<key>uuid</key>
+	<string>20CAAEE9-6048-4D7B-A72F-B3353B0F8029</string>
+</dict>
+</plist>

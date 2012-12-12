@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>deleted</key>
+	<array>
+		<string>3FD7CCD4-A9AE-4778-B285-8C16C404BB85</string>
+		<string>92CC7E03-54B6-4D2A-8C2A-DF7FE7836E57</string>
+	</array>
+	<key>name</key>
+	<string>Nox KRPano</string>
+	<key>ordering</key>
+	<array>
+		<string>E0CF667C-7793-4D9B-8FDA-0CAA33A28977</string>
+		<string>BE642D12-78DA-4579-B3A1-49015F37F93F</string>
+		<string>17CA1A12-7BE6-4F47-8F7C-97754DE5FA09</string>
+		<string>8124E92A-E998-4C00-A549-F555862D7158</string>
+	</array>
+	<key>uuid</key>
+	<string>9C847C43-929F-4FAC-8B3B-4668576F11D5</string>
+</dict>
+</plist>

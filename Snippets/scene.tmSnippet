@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;scene name="scene$1" onstart="startScene(scene$1);"&gt;
+	&lt;view hlookat="${3:0}" vlookat="${4:0}"/&gt;
+	&lt;preview url="$1/preview.jpg" /&gt;
+	&lt;image&gt;
+		&lt;cube url="$1/pano_%s.jpg" /&gt;
+		&lt;mobile&gt;
+			&lt;cube url="$1/mobile_%s.jpg" /&gt;
+		&lt;/mobile&gt;
+	&lt;/image&gt;
+	$0
+&lt;/scene&gt;
+
+
+
+
+</string>
+	<key>name</key>
+	<string>scene</string>
+	<key>scope</key>
+	<string>text.xml</string>
+	<key>tabTrigger</key>
+	<string>scene</string>
+	<key>uuid</key>
+	<string>8124E92A-E998-4C00-A549-F555862D7158</string>
+</dict>
+</plist>

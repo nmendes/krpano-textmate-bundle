@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;hotspot name="${1:video}"
+		url="/web_life/common/vr/krpano/plugins/videoplayer.swf"
+		ath="${2:0}" atv="${3:0}"
+        	rx="${4:0}" ry="${5:0}" rz="${6:0}"
+	    	zoom="true"
+	    	distorted="true"
+		width="${7:0}" height="${8:0}"
+		scale="${9:1}"
+		enabled="false"
+		handcursor="false"
+	   	loop="true"
+       	videourl="%CURRENTXML%/video/${10}.flv"
+/&gt;
+
+$0</string>
+	<key>name</key>
+	<string>hotspot video</string>
+	<key>scope</key>
+	<string>text.xml</string>
+	<key>tabTrigger</key>
+	<string>hsvideo</string>
+	<key>uuid</key>
+	<string>17CA1A12-7BE6-4F47-8F7C-97754DE5FA09</string>
+</dict>
+</plist>

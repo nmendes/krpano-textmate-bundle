@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;include url="/web_life/common/vr/krpano/geral.xml" /&gt;
+&lt;action name="bootstrap"&gt;                       &lt;!-- StartScene --&gt;
+	changeScene(scene${1});  
+&lt;/action&gt;
+
+${0}</string>
+	<key>name</key>
+	<string>insert startscene code</string>
+	<key>scope</key>
+	<string>text.xml</string>
+	<key>tabTrigger</key>
+	<string>start</string>
+	<key>uuid</key>
+	<string>E0CF667C-7793-4D9B-8FDA-0CAA33A28977</string>
+</dict>
+</plist>

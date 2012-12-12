@@ -1,0 +1,4 @@
+<include url="/web_life/common/vr/krpano/geral.xml" />
+<action name="bootstrap">                       <!-- StartScene -->
+	changeScene(scene);  
+</action>

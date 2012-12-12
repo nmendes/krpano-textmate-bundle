@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>dir=$TM_DROPPED_FILEPATH
+file=$TM_DROPPED_FILE
+#echo $file
+#echo "dir:" $dir
+#echo $file | sed -E 's/[o]/X/g'
+echo $file
+#echo $TM_SELECTED_TEXT</string>
+	<key>draggedFileExtensions</key>
+	<array>
+		<string>png</string>
+		<string>jpg</string>
+	</array>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>insert cube path</string>
+	<key>output</key>
+	<string>insertAsSnippet</string>
+	<key>uuid</key>
+	<string>0E186652-3036-4EDC-B458-8053CDE49E1A</string>
+</dict>
+</plist>

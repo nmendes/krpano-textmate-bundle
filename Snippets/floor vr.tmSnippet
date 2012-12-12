@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;vr x="$1" y="$2"&gt;
+	&lt;desc_en&gt;$3&lt;/desc_en&gt;
+	&lt;scene&gt;scene$4&lt;/scene&gt;
+    &lt;heading&gt;0$5&lt;/heading&gt;
+&lt;/vr&gt;$0</string>
+	<key>name</key>
+	<string>floor vr</string>
+	<key>scope</key>
+	<string>text.xml</string>
+	<key>tabTrigger</key>
+	<string>floorvr</string>
+	<key>uuid</key>
+	<string>42DDACD8-65D3-43CE-945D-65D7DD210502</string>
+</dict>
+</plist>

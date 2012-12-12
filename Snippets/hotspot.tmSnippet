@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;hotspot name="hs_${1}"
+		url="/web_life/common/vr/krpano/misc/${2:hs_next.png}"
+		ath="${3:0}" atv="${4:0}"
+		scale="${5:.45}"
+		crop="0|0|80|80"
+		onovercrop="80|0|80|80"
+		rotate="${6:90}"
+		onclick="changeScene(scene${1});"
+		onhover="showtext(${7});"
+/&gt;
+
+$0</string>
+	<key>name</key>
+	<string>hotspot</string>
+	<key>scope</key>
+	<string>text.xml</string>
+	<key>tabTrigger</key>
+	<string>hs</string>
+	<key>uuid</key>
+	<string>BE642D12-78DA-4579-B3A1-49015F37F93F</string>
+</dict>
+</plist>
