@@ -18,5 +18,5 @@ Features:
 
 ##Instructions
 
-Rename zip file with .bundle extension and double click it to install 
+Unzip and rename folder to krpanonox.tmbundle and double click it to install 
 
